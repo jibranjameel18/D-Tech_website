@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>D-Tech Studio — Contact</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <img src="images/logo.png" class="brand-logo" alt="logo">
+      <span class="brand-text">D-Tech Studio</span>
+    </div>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="games.html" class="nav-link">Games</a></li>
+        <li><a href="web.html" class="nav-link">Web Development</a></li>
+        <li><a href="seo.html" class="nav-link">SEO</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container page">
+    <h1 class="page-title">Contact Us</h1>
+    <p class="lead">Let's build something exceptional together.</p>
+
+    <div class="contact-grid">
+      <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <label>
+          Name
+          <input type="text" name="name" required>
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="_replyto" required>
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </div>
+      </form>
+
+      <aside class="contact-info glass">
+        <h3>Reach Us</h3>
+        <p><strong>Email:</strong> info@dtechstudios.com</p>
+        <p><strong>Phone:</strong> +92 300 0000000</p>
+        <p><strong>Location:</strong> Pakistan</p>
+
+        <div class="socials">
+          <!-- put icons in assets/icons/ and update hrefs -->
+          <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+          <a href="#"><img src="assets/icons/github.svg" alt="Github"></a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">© 2025 D-Tech Studio</div>
+  </footer>
+</body>
+</html>
